@@ -16,6 +16,10 @@ Github Finder is a web application that allows users to search for Github profil
 2. Daisy UI: a component library for Tailwind CSS that provides pre-built UI components
 3. Github API: a REST API that provides programmatic access to Github features and data
 
+## LiveLink
+
+the link to the App is [GithubFinder](https://githubfinder-git-main-malise5.vercel.app/)
+
 ## Installation
 
 To run Github Finder on your local machine, follow these steps:
