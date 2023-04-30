@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Github Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Github Finder is a web application that allows users to search for Github profiles and view their repositories and other details. It is built using React, Tailwind CSS, and Daisy UI, and uses the Github API to fetch user details and repository information.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. Search for Github profiles by username
+2. View user details including name, username, bio, location, and number of followers and following
+3. View the user's repositories including name, description, number of stars, and forks
+4. Click on a repository to view more details including the number of watchers, open issues, and the date it was created
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. React: a popular JavaScript library for building user interfaces
+   2.Tailwind CSS: a utility-first CSS framework that allows developers to rapidly build custom user interfaces
+2. Daisy UI: a component library for Tailwind CSS that provides pre-built UI components
+3. Github API: a REST API that provides programmatic access to Github features and data
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run Github Finder on your local machine, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the Github Finder repository: git clone https://github.com/malise5/Githubfinder.git
+2. Navigate to the project directory: [GitHub](https://github.com/malise5/Githubfinder/)
+3. Install dependencies:
 
-### `npm run build`
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Open your web browser and navigate to http://localhost:3000
 
-### `npm run eject`
+Use the package manager [npm](https://pip.pypa.io/en/stable/) to install packages .
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To use Github Finder, simply enter a Github username in the search bar and click the search button. The application will fetch the user's profile information and repositories and display them on the screen.
+You can click on a repository to view more details including the number of watchers, open issues, and the date it was created.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Contributions to [GitHub](https://github.com/malise5/Githubfinder/) Finder are welcome and appreciated! To contribute, follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Fork the repository
+2. Create a new branch for your feature or bug fix: git checkout -b my-feature-branch
+3. Make your changes and commit them with descriptive commit messages
+4. Push your changes to your fork: git push origin my-feature-branch
+5. Open a pull request on the [GitHub](https://github.com/malise5/Githubfinder/) Finder repository and describe your changes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Credits
 
-### Code Splitting
+Github Finder was created by [Malise](https://github.com/malise5). Special thanks to the following resources for their contributions to the project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Github API documentation: [Github](https://docs.github.com/en/rest)
+2. React documentation: [React](https://reactjs.org/docs/getting-started.html)
+3. Tailwind CSS documentation: [Tailwind](https://tailwindcss.com/docs)
+4. Daisy UI documentation: [Daisy](https://daisyui.com/docs)
 
-### Analyzing the Bundle Size
+# AUTHOR
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Profile: [Malise](https://github.com/malise5)
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT](https://choosealicense.com/licenses/mit/)
