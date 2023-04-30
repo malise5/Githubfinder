@@ -60,7 +60,8 @@ export const GithubProvider = ({ children }) => {
         setLoading();
 
         const params = new URLSearchParams({
-            sort: "created_at DESC",
+            sort: "created",
+            direction: "desc",
             per_page: 10,
         });
 
